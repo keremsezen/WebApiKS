@@ -1,0 +1,6 @@
+@WebApiKS_HostAddress = http://localhost:5059
+
+GET {{WebApiKS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
