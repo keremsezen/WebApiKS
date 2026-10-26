@@ -77,7 +77,7 @@ namespace ContactsAPI.Controllers
             await _dbContext.SaveChangesAsync();
             return Ok(contact);
         }
-        //yepyeni satır eklendi 
+        //yepyeni satır eklendi v
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateContact(int id, Contact updateContextRequest) //id'ye göre güncelleme
         {
